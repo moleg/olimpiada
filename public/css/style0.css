@@ -1,0 +1,284 @@
+
+body {
+	font-family: Georgia, Arial, Helvetica, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	background-color: #ECECEC;
+}
+
+#art-header{
+	width: 1000px;
+	height: 222px;
+	margin: auto;
+
+}
+
+#art-logo{
+	width: 260px;
+	height: 222px;
+	float: left;
+}
+
+#art-logo img{
+	width: 217px;
+	height: 217px;
+}
+
+#num_olimp{
+	height: 222px;
+	float: left;
+	padding-left: 50px;
+}
+
+#number{
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 63px;
+	color:#364E3E;
+	padding-top: 20px;
+}
+
+center{
+	font-size: 46px;
+	color: #364E3E;
+}
+
+#reg{
+	font-size: 30px;
+	padding-top: 12px;
+	font-family: Raleway, sans-serif;
+}
+
+#admin{
+	width: 200px;
+	height: 222px;
+	float: left;
+}
+
+#admin li{
+	list-style: none;
+	text-align: right;
+}
+
+
+#admin a{
+	color: #48685D;
+	font-size: 15px;
+	padding: 2px 0px;
+	height: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+}
+
+#tab-panel{
+	width: 1000px;
+	margin: auto;
+}
+
+#left-field{
+	width: 312px;
+	height: 10px;
+	float: left;
+}
+
+.tab-button{
+	-webkit-appearance: button;
+
+	background: #b4c8c8;
+
+
+	float: left;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: none;
+	margin-left: 6px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 17px;
+	width: 150px;
+	height: 35px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-top: 20px;
+}
+
+.rl-h-i{
+	width: 80px;
+	height: 20px;
+	margin-left: 85px;
+	float: left;
+}
+
+.rl-h-i div{
+	float: left;
+}
+
+.site_lng a{
+	font-family: Lucida Grande, Tahoma, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #48685D;
+	font-weight: 700;
+}
+
+#mode-botton{
+	float: left;
+	margin-top: -10px;
+	margin-left: 150px;
+}
+
+.clear{
+	clear: both;
+}
+
+#cform{
+	width: 1000px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo{
+	width: 320px;
+	float: left;
+	margin-top: -15px;
+}
+
+.photo p{
+	margin-top: 5px;
+	margin-bottom: 13px;
+}
+
+.photo img{
+	width: 217px;
+	height: auto;
+	margin-right: 20px;
+
+}
+
+#left-field{
+	width: 295px;
+	height: 55px;
+}
+
+
+form{
+	float: left;
+}
+
+.form-group-app{
+	width: 130px;
+	height: 60px;
+
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 5px;
+	width: 150px;
+}
+
+button {
+	margin-top: 10px;
+}
+
+/* для команд */
+
+.team-group {
+	width: 250px;
+	float: left;
+}
+
+table caption{
+	font-weight: 600;
+}
+
+table th{
+	font-weight: 400;
+}
+.help-block{
+	color: red;
+}
+.has-error input{
+    border:1px solid red;
+}
+
+#fon{
+	width: 388px;
+	height: 210px;
+	border: 1px solid #757575;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+/*для нижней части страницы*/
+
+.art-footer{
+	position: relative;
+	width: 1000px;
+	margin: auto;
+}
+
+.art-footer-evolution{
+	width: 98px;
+	height: 35px;
+	margin-left: 15px;
+	position: relative;
+	background-image: url("http://www.rl.kiev.ua/wp-content/themes/rl/images/evolution.gif");
+	background-repeat: no-repeat;
+
+}
+
+.art-footer-pencil{
+	width: 232px;
+	height: 25px;
+	margin-top: -12px;
+	right: 0px;
+	position: absolute;
+	background-image: url("http://www.rl.kiev.ua/wp-content/themes/rl/images/pencil.gif");
+	background-repeat: no-repeat;
+	z-index: 1000;
+}
+
+
+.art-footer-body{
+	border-top: 2px solid rgb(209, 209, 209);
+	position: relative;
+	font-size: 10.6667px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 13px;
+	padding: 16px 0px 35px 0px;
+	width: 100%;
+	background: url(../img/ruler.jpg) bottom left no-repeat;
+	z-index: -2;
+}
+
+.f-d-l {
+	padding: 0px 0px 0px 7px;
+	float: left;
+}
+
+.f-d-l a {
+	text-decoration: underline !important;
+}
+
+.art-footer-body a, .art-footer-body a:link {
+	color: #48685D;
+	text-decoration: none;
+}
+
+.footer-sitemap {
+	margin: 0px 0px 0px 155px;
+}
+
+.f-d-r {
+	float: right !important;
+}
+#puzzle{
+	width: auto;
+	text-align: right;
+	background-color: #F0F4F4;
+	margin-top: 39px;
+	border: 1px solid white;
+}
